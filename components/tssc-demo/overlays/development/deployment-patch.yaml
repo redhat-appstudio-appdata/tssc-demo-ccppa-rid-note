@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhn-gps-cjenkins-tenant/tssc-demo/tssc-demo@sha256:0c4dbdbb4824c9cbca8893315f6908c0ae28e745e26b61dcc3271daec828e18d
+      - image: quay.io/redhat-user-workloads/rhn-gps-cjenkins-tenant/tssc-demo/tssc-demo@sha256:be430b79fa82a371a4d06b003957e69c299a691b543db60c2f98f72949f38608
         name: my-java-springboot
         resources: {}
 status: {}
