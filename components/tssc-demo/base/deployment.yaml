@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: tssc-demo
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhn-gps-cjenkins-tenant/tssc-demo/tssc-demo@sha256:a9519a9f29e4e2468254a74a98313f08baf65fda6253d2416905e3f497b05985
+      - image: quay.io/redhat-user-workloads/rhn-gps-cjenkins-tenant/tssc-demo/tssc-demo@sha256:0c4dbdbb4824c9cbca8893315f6908c0ae28e745e26b61dcc3271daec828e18d
         name: my-java-springboot
         ports:
         - containerPort: 8081
